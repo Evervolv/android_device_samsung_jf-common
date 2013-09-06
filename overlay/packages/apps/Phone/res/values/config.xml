@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 
-<!-- shooteru-specific phone app resources. -->
+<!-- S4-specific phone app resources. -->
 <resources>
 
     <!-- Determine whether calls to mute the microphone in PhoneUtils
@@ -30,5 +30,8 @@
     
     <!-- Flag indicating if the phone is a world phone -->
     <bool name="world_phone">true</bool>
+
+    <!-- LTE/CDMA network mode to use for toggleLTE(true). -->
+    <integer name="toggleLTE_lte_cdma_nt_mode">8</integer>
 
 </resources>
