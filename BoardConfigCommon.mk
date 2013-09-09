@@ -60,6 +60,9 @@ BOARD_BLUETOOTH_USES_HCIATTACH_PROPERTY := false
 # NFC
 BOARD_NFC_HAL_SUFFIX := msm8960
 
+# Use retire fence from MDP driver
+TARGET_DISPLAY_USE_RETIRE_FENCE := true
+
 # Disable initlogo, Samsungs framebuffer is weird
 TARGET_NO_INITLOGO := true
 
