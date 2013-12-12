@@ -126,3 +126,10 @@ BOARD_SEPOLICY_UNION += \
 	thermald.te \
 	ueventd.te \
 	wpa_supplicant.te
+
+# Time services
+BOARD_USES_QC_TIME_SERVICES := true
+
+# Camera
+TARGET_NEED_CAMERA_ZSL := true
+TARGET_NEED_SAMSUNG_MAGIC_ZSL_1508 := true
