@@ -95,7 +95,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libnfc-nci \
     libnfc_nci_jni \
-    nfc_nci.msm8960 \
+    nfc_nci.$(TARGET_DEVICE) \
     NfcNci \
     Tag \
     com.android.nfc_extras
