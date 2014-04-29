@@ -95,7 +95,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libnfc-nci \
     libnfc_nci_jni \
-    nfc_nci.$(TARGET_DEVICE) \
+    nfc_nci.jfltevzw \
     NfcNci \
     Tag \
     com.android.nfc_extras
