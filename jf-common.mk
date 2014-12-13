@@ -103,6 +103,7 @@ PRODUCT_PACKAGES += \
     gralloc.msm8960 \
     hwcomposer.msm8960 \
     libgenlock \
+    libstagefright_soft_ffmpegvdec \
     memtrack.msm8960
 
 # GPS
@@ -147,7 +148,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libnfc-nci \
     libnfc_nci_jni \
-    nfc_nci.bcm2079x.msm8960 \
+    nfc_nci.bcm2079x.default \
     NfcNci \
     Tag \
     com.android.nfc_extras
