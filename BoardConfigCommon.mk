@@ -189,3 +189,4 @@ WIFI_DRIVER_FW_PATH_STA := "/system/etc/wifi/bcmdhd_sta.bin"
 
 #TWRP
 DEVICE_RESOLUTION := 1080x1920
+BLOCK_BASED_OTA := true
